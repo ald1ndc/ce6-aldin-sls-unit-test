@@ -11,5 +11,8 @@
   "devDependencies": {
     "jest": "^29.7.0",
     "serverless-offline": "^13.8.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sns": "^3.650.0"
   }
 }

@@ -17,6 +17,9 @@ functions:
     handler: handler.handler
     environment:
       CLASS_NAME: "CE 6"
+      EMAIL_ADDRESS:
+        Ref: ce6aldinEmailsns
+        
     events:
       - httpApi:
            path: /
