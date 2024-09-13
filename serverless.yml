@@ -29,7 +29,7 @@ resources:
        Topic Name: aldin-email-topic
        Subscription:
         - Protocol: "email"
-        - Endpoint: "aldindc@yahoo.com"
+          Endpoint: "aldindc@yahoo.com"
 
 plugins:
   - serverless-offline
