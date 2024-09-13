@@ -23,7 +23,7 @@ functions:
            method: get
 resources:
   Resources:
-   AldindcEmailsns:
+   ce6aldinEmailsns:
      Type: AWS::SNS::Topic
      Properties:
        Topic Name: aldin-email-topic
