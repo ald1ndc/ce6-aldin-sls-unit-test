@@ -24,7 +24,7 @@ jobs:
         run: npm install
       - name: Run Unit Tests
         run: npm test
-        //deploy to AWS 13 Sept 2024
+        
   deploy:
     name: deploy
     runs-on: ubuntu-latest
