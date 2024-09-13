@@ -4,7 +4,7 @@ org: aldin
 app: unitest-app
 # "service" is the name of this project. This will also be added to your AWS resource names.
 service: unitest
-frameworkVersion: '4'
+frameworkVersion: '3'
 
 provider:
   name: aws
