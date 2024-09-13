@@ -11,8 +11,11 @@ provider:
   runtime: nodejs20.x
   region: ap-southeast-1
 #  environment:
-#   CLASS_NAME: ""
+#   CLASS_NAME: "CE 6"
 
 functions:
   hello:
     handler: handler.hello
+
+plugins:
+  - serverless-offline
