@@ -4,10 +4,12 @@ org: aldin
 app: unitest-app
 # "service" is the name of this project. This will also be added to your AWS resource names.
 service: unitest
+frameworkVersion: '3'
 
 provider:
   name: aws
   runtime: nodejs20.x
+  region: ap-southeast-1
 #  environment:
 #   CLASS_NAME: ""
 
