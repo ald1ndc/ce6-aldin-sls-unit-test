@@ -26,7 +26,7 @@ resources:
    ce6aldinEmailsns:
      Type: AWS::SNS::Topic
      Properties:
-       Topic Name: aldin-email-topic
+       TopicName: ce6-aldindc-topic
        Subscription:
         - Protocol: "email"
           Endpoint: "aldindc@yahoo.com"
